@@ -86,15 +86,14 @@ Use scanf to input the file name into the name array.
  
 Program:
 
-//type your code here
+<img width="656" height="657" alt="image" src="https://github.com/user-attachments/assets/6c50562f-5f52-4ea5-ac5d-d5addf30c122" />
 
 
 
 
 Output:
 
-
-//paste your output here
+<img width="617" height="731" alt="image" src="https://github.com/user-attachments/assets/5219e130-8746-45b0-805f-338539ca3061" />
 
 
 
