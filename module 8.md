@@ -16,7 +16,8 @@ Algorithm:
  
 Program:
 
-//type your code here
+<img width="607" height="672" alt="image" src="https://github.com/user-attachments/assets/013adf32-d0ac-4258-8095-e0d3e2ab730e" />
+
 
 
 
@@ -24,7 +25,7 @@ Program:
 Output:
 
 
-//paste your output here
+<img width="712" height="216" alt="image" src="https://github.com/user-attachments/assets/b7ca353f-46e7-4f87-8bb1-6f14a3011ee3" />
 
 
 
@@ -47,7 +48,7 @@ Algorithm:
  
 Program:
 
-//type your code here
+<img width="732" height="561" alt="image" src="https://github.com/user-attachments/assets/101db30f-525c-480b-8c22-a6dda36d0e9e" />
 
 
 
@@ -55,8 +56,7 @@ Program:
 Output:
 
 
-//paste your output here
-
+<img width="787" height="364" alt="image" src="https://github.com/user-attachments/assets/5715b8aa-fada-4f1f-bb47-6cb8201c9c87" />
 
 
 
@@ -84,15 +84,92 @@ Free the memory allocated for each string in s Free the memory allocated for s
  
 Program:
 
-//type your code here
+#include <stdio.h>
+#include <string.h>
 
+void sort(char str[])
+{
+    int i, j;
+    char temp;
+
+    for(i = 0; str[i] != '\0'; i++)
+    {
+        for(j = i + 1; str[j] != '\0'; j++)
+        {
+            if(str[i] > str[j])
+            {
+                temp = str[i];
+                str[i] = str[j];
+                str[j] = temp;
+            }
+        }
+    }
+}
+
+int nextPermutation(char str[], int n)
+{
+    int i, j;
+    char temp;
+
+    i = n - 2;
+
+    while(i >= 0 && str[i] >= str[i + 1])
+        i--;
+
+    if(i < 0)
+        return 0;
+
+    j = n - 1;
+
+    while(str[j] <= str[i])
+        j--;
+
+    temp = str[i];
+    str[i] = str[j];
+    str[j] = temp;
+
+    j = n - 1;
+
+    while(i + 1 < j)
+    {
+        temp = str[i + 1];
+        str[i + 1] = str[j];
+        str[j] = temp;
+        i++;
+        j--;
+    }
+
+    return 1;
+}
+
+int main()
+{
+    char str[20];
+    int n;
+
+    printf("Enter a string: ");
+    scanf("%s", str);
+
+    n = strlen(str);
+
+    sort(str);
+
+    printf("Permutations in lexicographical order:\n");
+
+    do
+    {
+        printf("%s\n", str);
+    } while(nextPermutation(str, n));
+
+    return 0;
+}
 
 
 
 Output:
 
 
-//paste your output here
+<img width="814" height="324" alt="image" src="https://github.com/user-attachments/assets/acbaf2f4-32f8-453b-a361-1700d59a51e1" />
 
 
 
@@ -117,7 +194,7 @@ Algorithm:
  
 Program:
 
-//type your code here
+<img width="810" height="506" alt="image" src="https://github.com/user-attachments/assets/754d757f-e73c-4351-ae5a-d841218f7abf" />
 
 
 
@@ -125,8 +202,7 @@ Program:
 Output:
 
 
-//paste your output here
-
+<img width="705" height="321" alt="image" src="https://github.com/user-attachments/assets/a8b949fa-fca7-4f0b-ba58-8f80933762a8" />
 
 
 
@@ -156,7 +232,8 @@ o	Call the square() function and display the result.
 
 Program:
 
-//type your code here
+<img width="708" height="567" alt="image" src="https://github.com/user-attachments/assets/6e7f09a5-81b5-404d-8d3d-95d9dbcb4aa5" />
+
 
 
 
@@ -164,8 +241,7 @@ Program:
 Output:
 
 
-//paste your output here
-
+<img width="1665" height="634" alt="image" src="https://github.com/user-attachments/assets/d3134458-1ac8-48b1-bd95-25fe76cbf649" />
 
 
 
