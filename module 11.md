@@ -12,10 +12,13 @@ Algorithm:
 5.	Call the max_of_four function with the input integers and store the result in the greater variable
  
 Program:
-//type your code here
+<img width="822" height="567" alt="image" src="https://github.com/user-attachments/assets/d9db372a-6a2f-461c-b877-f6fb6cbf84f2" />
+
 
 Output:
-//paste your output here
+<img width="765" height="358" alt="image" src="https://github.com/user-attachments/assets/3fbc3892-063b-4800-b428-e739690c8920" />
+
+
 
 Result:
 Thus, the program  that create a function to find the greatest number is verified successfully.
@@ -36,10 +39,11 @@ Algorithm:
 7.	Call the calculate_the_max function with input values.
  
 Program:
-//type your code here
+<img width="756" height="750" alt="image" src="https://github.com/user-attachments/assets/23f6f860-fcd0-495d-bc44-914d30ce09b0" />
+
 
 Output:
-//paste your output here
+<img width="853" height="354" alt="image" src="https://github.com/user-attachments/assets/cb4a13be-ab15-4d4e-b664-c58414b3a76d" />
 
 Result:
 Thus, the program to print the maximum values for the AND, OR and XOR comparisons
@@ -59,10 +63,11 @@ Algorithm:
 5.	Use a for loop to iterate over the queries.
  
 Program:
-//type your code here
+<img width="810" height="729" alt="image" src="https://github.com/user-attachments/assets/4035cca0-a3f9-4699-9208-31a80170ba85" />
+
 
 Output:
-//paste your output here
+<img width="720" height="339" alt="image" src="https://github.com/user-attachments/assets/05a4ecdf-a892-4d7c-afda-ae37934fd36b" />
 
 
 Result:
@@ -86,10 +91,12 @@ Algorithm:
 
 
 Program:
-//type your code here
+<img width="734" height="556" alt="image" src="https://github.com/user-attachments/assets/4d8776fe-aa56-4f3f-b745-aae20da4a4c5" />
+
 
 Output:
-//paste your output here
+<img width="698" height="344" alt="image" src="https://github.com/user-attachments/assets/98469e1e-99f8-43a5-92ee-53aa7a538c04" />
+
 
  
 
@@ -120,10 +127,10 @@ o	If a character is not a space, it may belong to a word. If it's the first non-
 
 
 Program:
-//type your code here
+<img width="749" height="627" alt="image" src="https://github.com/user-attachments/assets/fcaa9afe-8d17-4808-b440-39eb7d054e9f" />
 
 Output:
-//paste your output here
+<img width="855" height="280" alt="image" src="https://github.com/user-attachments/assets/bbf8c9db-9438-47eb-8b17-33184f23ab7f" />
 
 
 
