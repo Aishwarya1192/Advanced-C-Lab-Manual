@@ -16,12 +16,15 @@ Else
  
 Program:
 
-//type your code here
+<img width="632" height="682" alt="image" src="https://github.com/user-attachments/assets/c68b7559-7ee3-4984-8b7d-a1ecee18700d" />
+
 
 
 Output:
 
-//paste your output here
+
+
+<img width="649" height="619" alt="image" src="https://github.com/user-attachments/assets/36dfe1c5-ca0f-40c3-8035-7e4dd5e75459" />
 
 
 Result:
@@ -44,7 +47,8 @@ Algorithm:
  
 Program:
 
-//type your code here
+<img width="646" height="643" alt="image" src="https://github.com/user-attachments/assets/5c0fc143-12ff-4ba4-afe5-c91b0ee628d6" />
+
 
 
 
@@ -52,7 +56,7 @@ Program:
 Output:
 
 
-//paste your output here
+<img width="260" height="244" alt="image" src="https://github.com/user-attachments/assets/b3d6243a-0d54-4a74-bd8a-86c34b58e777" />
 
 
 
@@ -86,7 +90,8 @@ Use scanf to input the file name into the name array.
  
 Program:
 
-//type your code here
+<img width="678" height="684" alt="image" src="https://github.com/user-attachments/assets/f3205c4a-6c95-43d6-b39b-90ef1306d85b" />
+
 
 
 
@@ -94,7 +99,8 @@ Program:
 Output:
 
 
-//paste your output here
+<img width="444" height="125" alt="image" src="https://github.com/user-attachments/assets/e8fabb05-01d0-461f-a5d3-6a85b28b5275" />
+
 
 
 
@@ -133,7 +139,7 @@ Use scanf to input the file name into the name array and the number of strings i
  
 Program:
 
-//type your code here
+<img width="794" height="707" alt="image" src="https://github.com/user-attachments/assets/73d9bd15-4f53-4d95-958d-7cca92d2698d" />
 
 
 
@@ -141,7 +147,8 @@ Program:
 Output:
 
 
-//paste your output here
+<img width="624" height="235" alt="image" src="https://github.com/user-attachments/assets/a18cbd15-ae41-4077-8302-7b7646ee259d" />
+
 
 
 
@@ -187,7 +194,7 @@ Algorithm:
 
 Program:
 
-//type your code here
+<img width="720" height="671" alt="image" src="https://github.com/user-attachments/assets/9ba651f8-df1e-4d78-8b0f-c5663aafb1dc" />
 
 
 
@@ -195,7 +202,7 @@ Program:
 Output:
 
 
-//paste your output here
+<img width="553" height="325" alt="image" src="https://github.com/user-attachments/assets/41d37f12-b5ea-415c-b9b9-2b488d600074" />
 
 
 
