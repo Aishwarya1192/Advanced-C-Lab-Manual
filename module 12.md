@@ -15,11 +15,13 @@ Algorithm:
  
 Program:
 
-//type your code here
+<img width="637" height="579" alt="image" src="https://github.com/user-attachments/assets/46ce07cf-655d-4960-8666-f182b8939674" />
+
 
 Output:
 
-//paste your output here
+<img width="848" height="380" alt="image" src="https://github.com/user-attachments/assets/fbe7f934-3d52-40b7-886a-c55f8923c763" />
+
 
 
 Result:
@@ -40,11 +42,67 @@ Algorithm:
  
 Program:
 
-//type your code here
+#include <stdio.h>
+#include <stdlib.h>
+
+struct Node
+{
+    int data;
+    struct Node *next;
+};
+
+int main()
+{
+    struct Node *top = NULL;
+    struct Node *newNode, *temp;
+    int n, i;
+
+    printf("Enter number of elements: ");
+    scanf("%d", &n);
+
+    for(i = 0; i < n; i++)
+    {
+        newNode = (struct Node *)malloc(sizeof(struct Node));
+
+        printf("Enter element: ");
+        scanf("%d", &newNode->data);
+
+        newNode->next = top;
+        top = newNode;
+    }
+
+    if(top == NULL)
+    {
+        printf("Stack Underflow");
+    }
+    else
+    {
+        temp = top;
+
+        printf("Popped element: %d\n", top->data);
+
+        top = top->next;
+
+        free(temp);
+
+        printf("Stack after popping:\n");
+
+        temp = top;
+
+        while(temp != NULL)
+        {
+            printf("%d\n", temp->data);
+            temp = temp->next;
+        }
+    }
+
+    return 0;
+}
 
 Output:
 
-//paste your output here
+<img width="871" height="359" alt="image" src="https://github.com/user-attachments/assets/c9444796-a540-4691-850f-3ca6a52417fa" />
+
 
 
 
@@ -64,11 +122,61 @@ Algorithm:
  
 Program:
 
-//type your code here
+#include <stdio.h>
+#include <stdlib.h>
+
+struct Node
+{
+    int data;
+    struct Node *next;
+};
+
+int main()
+{
+    struct Node *front = NULL, *rear = NULL;
+    struct Node *newNode, *temp;
+    int n, i;
+
+    printf("Enter number of elements: ");
+    scanf("%d", &n);
+
+    for(i = 0; i < n; i++)
+    {
+        newNode = (struct Node *)malloc(sizeof(struct Node));
+
+        printf("Enter element: ");
+        scanf("%d", &newNode->data);
+
+        newNode->next = NULL;
+
+        if(front == NULL)
+        {
+            front = rear = newNode;
+        }
+        else
+        {
+            rear->next = newNode;
+            rear = newNode;
+        }
+    }
+
+    printf("Queue elements are:\n");
+
+    temp = front;
+
+    while(temp != NULL)
+    {
+        printf("%d ", temp->data);
+        temp = temp->next;
+    }
+
+    return 0;
+}
 
 Output:
 
-//paste your output here
+<img width="840" height="337" alt="image" src="https://github.com/user-attachments/assets/e92b744c-ee41-4eaf-85c3-d67f139cf9c0" />
+
 
 Result:
 Thus, the program to display queue elements using linked list is verified successfully.
@@ -90,11 +198,60 @@ Algorithm:
  
 Program:
 
-//type your code here
+#include <stdio.h>
+#include <stdlib.h>
+
+struct Node
+{
+    int data;
+    struct Node *next;
+};
+
+int main()
+{
+    struct Node *front = NULL, *rear = NULL;
+    struct Node *newNode, *temp;
+    int n, i;
+
+    printf("Enter number of elements: ");
+    scanf("%d", &n);
+
+    for(i = 0; i < n; i++)
+    {
+        newNode = (struct Node *)malloc(sizeof(struct Node));
+
+        printf("Enter element: ");
+        scanf("%d", &newNode->data);
+
+        newNode->next = NULL;
+
+        if(front == NULL)
+        {
+            front = rear = newNode;
+        }
+        else
+        {
+            rear->next = newNode;
+            rear = newNode;
+        }
+    }
+
+    printf("Queue elements are:\n");
+
+    temp = front;
+
+    while(temp != NULL)
+    {
+        printf("%d ", temp->data);
+        temp = temp->next;
+    }
+
+    return 0;
+}
 
 Output:
 
-//paste your output here
+<img width="806" height="260" alt="image" src="https://github.com/user-attachments/assets/4a8e8728-27d1-40c3-a2d3-027bef689ff5" />
 
 Result:
 Thus, the program to insert elements in queue using linked list is verified successfully.
@@ -117,11 +274,64 @@ o	If the queue is not empty, return the data stored in the front node of the lin
 
 Program:
 
-//type your code here
+#include <stdio.h>
+#include <stdlib.h>
 
+struct Node
+{
+    int data;
+    struct Node *next;
+};
+
+void peek(struct Node *front)
+{
+    if(front == NULL)
+    {
+        printf("Queue is Empty");
+    }
+    else
+    {
+        printf("Peek element = %d", front->data);
+    }
+}
+
+int main()
+{
+    struct Node *front = NULL, *rear = NULL;
+    struct Node *newNode;
+    int n, i;
+
+    printf("Enter number of elements: ");
+    scanf("%d", &n);
+
+    for(i = 0; i < n; i++)
+    {
+        newNode = (struct Node *)malloc(sizeof(struct Node));
+
+        printf("Enter element: ");
+        scanf("%d", &newNode->data);
+
+        newNode->next = NULL;
+
+        if(front == NULL)
+        {
+            front = rear = newNode;
+        }
+        else
+        {
+            rear->next = newNode;
+            rear = newNode;
+        }
+    }
+
+    peek(front);
+
+    return 0;
+}
 Output:
 
-//paste your output here
+<img width="1654" height="789" alt="image" src="https://github.com/user-attachments/assets/aa2905c1-9856-4d27-8d92-76207a6a1330" />
+
 
 
 
